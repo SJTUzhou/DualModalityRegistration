@@ -24,12 +24,35 @@ A 3D Slicer extension for registering medical images of different modalities usi
 
 ## Installation
 
-1. Install 3D Slicer (version 5.6.2 or later recommended)
-2. Install the required Python packages: Open the bin folder under the installation path of 3D-Slicer on the computer, right-click on this interface and select Open in Terminal
-   ```bash
-   ./PythonSlicer.exe -m pip install niftyreg nibabel numpy scipy
-   ```
-3. See the ReadMe - DualModalityRegistration.pdf
+### Prerequisites
+1. Download and install 3D-Slicer from [https://download.slicer.org/](https://download.slicer.org/)
+
+### Step-by-Step Installation Guide
+
+1. **Install Required Python Packages**
+   - Open the `bin` folder under the installation path of 3D-Slicer on your computer
+   - Right-click in the folder and select "Open in Terminal"
+   - Enter the following command and press Enter:
+     ```bash
+     ./PythonSlicer.exe -m pip install niftyreg nibabel numpy scipy
+     ```
+
+2. **Install the Module**
+   - Download the `DualModalityRegistration.zip` file
+   - Unzip it to a folder of your choice
+   - Open 3D-Slicer
+   - Click "Edit" in the upper left corner
+   - Select "Application Settings"
+   - Add the module in the following order:
+     1. Click "Add"
+     2. Navigate to the unzipped `DualModalityRegistration` folder
+     3. Select the subfolder named `DualModalityRegistration` (note: the module and plugin have the same name)
+     4. Confirm the selection
+   - Restart 3D Slicer when prompted
+
+3. **Verify Installation**
+   - After restarting, the module should appear under "Modules → Examples → Dual Modality Registration"
+   - If you can see the module interface, the installation was successful
 
 ## Usage
 
