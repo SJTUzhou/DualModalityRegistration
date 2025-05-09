@@ -29,11 +29,6 @@ A 3D Slicer extension for registering medical images of different modalities usi
    ```bash
    ./PythonSlicer.exe -m pip install niftyreg nibabel numpy scipy
    ```
-3. Install the extension through 3D Slicer's Extension Manager:
-   - Open 3D Slicer
-   - Go to View → Extension Manager
-   - Search for "Dual Modality Registration"
-   - Click Install
 
 ## Usage
 
