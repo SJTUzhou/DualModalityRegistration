@@ -29,6 +29,7 @@ A 3D Slicer extension for registering medical images of different modalities usi
    ```bash
    ./PythonSlicer.exe -m pip install niftyreg nibabel numpy scipy
    ```
+3. See the ReadMe - DualModalityRegistration.pdf
 
 ## Usage
 
